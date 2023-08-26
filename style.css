@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    background-color: #FFF0F5;
+}
+
+.header {
+    background-color: #FFD1DA;
+    height: 15vh;
+    font-family: 'Barriecito', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #D25380;
+    padding-top: 5vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+.btn {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 15px solid #FFDBAA;
+    border-radius: 50px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    -webkit-text-stroke: 3px #FFD1DA;
+    color: #D25380;
+}
+
+.letter {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    color: #D25380;
+    text-align: center;
+    margin-top: 0;
+}
+
+.btn-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat( 3 , 1fr );
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#a {
+    background-image: url(./Animal-Photos/a.jpg);
+    background-size: cover;
+}
+
+#b {
+    background-image: url(./Animal-Photos/b.jpg);
+    background-size: cover;
+}
+
+#c {
+    background-image: url(./Animal-Photos/c.jpg);
+    background-size: cover;
+}
+
+#d {
+    background-image: url(./Animal-Photos/d.jpg);
+    background-size: cover;
+}
+
+#e {
+    background-image: url(./Animal-Photos/e.jpg);
+    background-size: cover;
+}
+
+#f {
+    background-image: url(./Animal-Photos/f.jpg);
+    background-size: cover;
+}
+
+#g {
+    background-image: url(./Animal-Photos/g.JPG);
+    background-size: cover;
+}
+
+#h {
+    background-image: url(./Animal-Photos/h.jpg);
+    background-size: cover;
+}
+
+#i {
+    background-image: url(./Animal-Photos/i.jpg);
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Borel', cursive;
+    color: #D25380;
+    background-color: #FFD1DA;
+    padding: 20px;
+}
+
+.pressed {
+    opacity: 0.5;
+    box-shadow: 5px 5px 5px 5px #D25380;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 2rem;
+}
+
+.pagination :hover {
+    background-color: #D25380;
+    color: #FFD1DA;
+}
+
+.page {
+    padding: 5px 20px;
+    margin: 10px;
+    color: #D25380;
+    background-color: #FFD1DA;
+    text-decoration: none;
+}
+
+.current {
+    background-color: #D25380;
+    color: #FFD1DA;
+}
+
+@media (max-width : 1100px) {
+    .btn {
+        height: 170px;
+        width: 170px;
+    }
+    .container {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .header {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width : 850px) {
+    .header {
+        height: 10vh;
+    }
+}
+
+@media (max-width : 750px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .header {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+@media (max-width : 600px) {
+    .container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .btn {
+        height: 150px;
+        width: 150px;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .btn {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width : 300px) {
+    .btn {
+        height: 120px;
+        width: 120px;
+    }
+    .header {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+
+
